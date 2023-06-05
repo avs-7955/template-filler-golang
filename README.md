@@ -11,12 +11,18 @@ The repository consists the code to receive a message via. POST request. The rec
 <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/go.svg" alt="Svelte" height="80"/>
 </div>
 
+## Screenshots
+1. Send POST request to server - http://localhost:3000/dashboard
+<img src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/Web_Development/movies_app/thunder-client_zC9fgf1rN.png?updatedAt=1685977391782" alt="Format to send the JSON object"/>
+2. Save the CSV file with some data and after running the script, we get multiple txt files with customized message.
+<img src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/Web_Development/movies_app/txt-file_vvP7CpQ1P.png?updatedAt=1685977391788" alt="Customized txt file for each person" />
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git https://github.com/avs-7955/template-filler-golang.git
+  git clone https://github.com/avs-7955/template-filler-golang.git
 ```
 
 Go to the project directory
