@@ -20,7 +20,7 @@ type Message struct {
 // ROUTING METHODS
 func ConvertMessagetoTXT(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	w.Header().Set("Allow-Control-Allow-Methods", "POST") // will only accept post requests
+	w.Header().Set("Allow-Control-Allow-Methods", "*") // will only accept post requests
 	// if the data received is empty
 	if r.Body == nil {
 		json.NewEncoder(w).Encode("Please send some data")
