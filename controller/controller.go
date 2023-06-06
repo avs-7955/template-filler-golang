@@ -67,7 +67,7 @@ func InsertValuesIntoTxt(sentence string) {
 	// for every entry of the csv file, converting into txt file.
 	for _, row := range rows {
 		// t2.Execute(os.Stdout, row)
-		f, err := os.Create("./files/" + row["Name"] + ".txt")
+		f, err := os.Create("./files/txt_files/" + row["Name"] + ".txt")
 		if err != nil {
 			log.Fatal(err)
 		}
